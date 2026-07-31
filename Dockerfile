@@ -10,7 +10,8 @@ RUN pip install --no-cache-dir \
     huggingface_hub==0.25.2 \
     requests==2.32.3 \
     numpy==1.26.4 \
-    Pillow
+    Pillow \
+    starlette==0.52.1
 
 # Patch gradio_client/utils.py: handle boolean schema
 RUN python -c "\
