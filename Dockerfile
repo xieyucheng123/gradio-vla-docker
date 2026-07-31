@@ -10,7 +10,7 @@ RUN pip install --no-cache-dir \
     huggingface_hub==0.25.2 \
     requests==2.32.3 \
     numpy==1.26.4 \
-    Pillow==11.1.0
+    Pillow
 
 WORKDIR /app
 COPY gradio_app.py /app/
